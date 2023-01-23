@@ -1,0 +1,74 @@
+/* Write your CSS code here. */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+.card-container {
+  max-width: 650px;
+  padding: 25px;
+  background-color: aliceblue;
+  width: 80%;
+  border-radius: 16px;
+}
+.emoji-img {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.emoji-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.emoji-button {
+  margin: 10px;
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
+
+.list-container {
+  list-style-type: none;
+}
+.heading {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'roboto';
+}
+.name {
+  color: black;
+  font-size: 20px;
+}
+
+.feedback-question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.love-image {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.response-answer {
+  font-family: 16px;
+  font-family: 'roboto';
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
